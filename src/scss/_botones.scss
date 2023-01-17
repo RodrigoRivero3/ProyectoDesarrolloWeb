@@ -1,0 +1,11 @@
+.btn__aside{
+    @include btnAside(black,white)
+}
+
+.btn{
+    @include btnInicio(black,white);
+    &:hover{
+        background-color: cornflowerblue;
+    }
+}
+

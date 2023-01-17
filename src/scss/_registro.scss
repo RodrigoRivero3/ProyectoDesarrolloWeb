@@ -1,0 +1,49 @@
+.formulario{
+    display: flex;
+    justify-content: center ;
+    background-image: url(../img/registro/pexels-lucie-liz-3165335.jpg);
+    background-position: 100%;
+    background-size: cover;
+    object-fit: cover;
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        width: 50%;
+        background-image: url(../img/registro/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
+        padding: 30px;
+        margin: 30px;
+        border-radius: 4px;
+        font-family: cursive;
+        color: white;
+        label{
+            .form__input{
+                display: block;
+                width: 100%;
+                background-color: transparent;
+                padding: 20px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px solid white;
+                font-family: cursive;
+                font-size: 18px;
+                text-align: center;
+            }
+            
+        }
+        .form__btn{
+            margin-top: 20px;
+            width: 120px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+
+
+

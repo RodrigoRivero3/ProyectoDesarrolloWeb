@@ -1,0 +1,21 @@
+
+@mixin btnAside($backgruond,$color){
+    width: 150px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: $backgruond;
+    color: $color;
+    text-decoration: none;
+    margin: 10px;
+    &:hover{
+        color: blue;
+    }
+}
+
+@mixin btnInicio($fondo,$letra){
+    width: 100%;
+    background-color: $fondo;
+    color: $letra;
+}

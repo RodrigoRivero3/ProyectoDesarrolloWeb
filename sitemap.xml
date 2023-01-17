@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/issues</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/pulls</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/actions</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/projects?query=is%3Aopen</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/security</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/commit/29a5299d80be723786df7cfb9bd5c17e756df5e7</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/blob/master/index.html</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/releases</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/compare</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/security/policy</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/security/advisories</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/commit/a1c4c44cd1addd4205a739924e08c792c43f8edc</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/blob/29a5299d80be723786df7cfb9bd5c17e756df5e7/index.html</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/find/master</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels?sort=name-asc</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels?sort=name-desc</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels?sort=count-desc</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels?sort=count-asc</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/bug</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/documentation</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/duplicate</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/enhancement</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/good%20first%20issue</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/help%20wanted</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/invalid</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/question</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/labels/wontfix</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/find/29a5299d80be723786df7cfb9bd5c17e756df5e7</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/RodrigoRivero3/ProyectoDesarrolloWeb/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-01-17T22:32:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

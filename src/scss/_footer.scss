@@ -1,0 +1,49 @@
+footer{
+    grid-area: footer;
+    background: #040201;
+    background-image: $colorGradiente;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .empresa{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .fa-brands{
+            font-size: 30px;
+            height: 80px;
+            width: 80px;
+        }  
+    }
+    .sucursal{
+        margin: 10px;
+        text-align: center;
+        h3{
+            margin: 10px 0px;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li{
+                a{
+                    .fa-solid{
+                        font-size: 20px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1037px){
+    footer{
+        .empresa{
+            width: 100%;
+            align-items: center;
+        }
+    } 
+}

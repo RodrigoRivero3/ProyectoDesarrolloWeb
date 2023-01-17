@@ -1,0 +1,29 @@
+
+
+.header {
+    grid-area: header;
+    background-image: url(../img/Inicio/retrowave_retro_games_purple_dark_video_games-1328387.jpg!d);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    .headerInfo{
+        color: #33FF8D;
+        border-radius: 10px;
+        h1{
+            @extend %titulo;
+        }
+    } 
+}
+
+
+@media(max-width:651px){
+    .header{
+        .headerInfo{
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+}

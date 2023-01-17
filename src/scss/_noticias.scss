@@ -1,0 +1,88 @@
+
+section{
+    .blqNoticia{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: black;
+        @extend %noticias;
+        .blqNoticia__img{
+            width: 100%;
+        }
+        .blqNoticia__titulo{
+            text-align: center;
+            font-family: Titania;
+            color: white;
+            font-size: 60px;
+            margin: 10px;
+            padding: 5px; 
+        }
+        .blqNoticia__subT{
+            text-align: center;
+            font-family: cursive;
+            color: white;
+            font-size: 40px;
+            margin: 10px;
+            padding: 10px; 
+        }
+        .blqNoticia__texto{
+            color: white;
+            font-size: 20px;
+            font-family: cursive;
+            margin: 10px;
+            padding: 10px;
+        }
+        .comentarios{
+            display: flex;
+            flex-direction: column;
+            h3{
+                color: white;
+            }
+            .respuesta{
+                padding: 10px;
+                h4{
+                    color: white;
+                }
+                p{
+                    color: white;
+                }
+            }
+            .comentario{
+                transition: 2s;
+                &:hover {
+                    label{
+                        display: block;
+                    }
+                } 
+                label{
+                    background-color: aqua;
+                    font-size: 15px;
+                    padding: 10px;
+                    display: none;
+                }
+                .comentar{
+                    background-color: aqua;
+                    width: 200px;
+                    font-size: 20px;
+                    margin: 10px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    color: black;
+                }
+            }
+        }
+    }   
+}
+
+
+@media(max-width:768px){
+    .blqNoticia__titulo{
+        font-size: 40px;
+    }
+    .blqNoticia__subT{
+        font-size: 25px;
+    }
+    .blqNoticia__texto{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,41 @@
+
+main{
+    .parrafoTexto{
+        width: 100%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        span{
+            font-family: cursive;
+            font-size: 30px;
+            color: #33FF8D;
+        }
+    }
+    
+    .parrafoTitulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        color: red;
+        top: 10px;
+    }
+    
+    .aboutImg{
+        width: 250px;
+        transition: 2s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    .aboutImg2{
+        transition: 2s;
+        &:hover{
+            transform: scale(1.2);
+        }  
+    }
+}
+
+
+
+
+
+
+

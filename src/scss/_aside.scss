@@ -1,0 +1,45 @@
+
+aside{
+    grid-area: aside;  
+    .publicidades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        margin: 10px;
+        .publicidad{
+            @extend %publicidad;  
+        }
+    }
+    .tarjetas{
+        .tarjeta{
+            @extend %publicidad;
+        }
+    }
+    .table{
+        background-image: url(../../assets/img/Tabla//sub_zero_and_kratos-600.jpg);
+        @extend %tabla;
+    }
+}
+
+
+
+@media(max-width:998px){
+    .publicidad{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .publicidad{
+        width: 100%;
+        img{
+            width: 350px;
+        }
+    }
+}
+
+
+
+
+

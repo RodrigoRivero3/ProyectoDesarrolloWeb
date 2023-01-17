@@ -1,0 +1,22 @@
+.navbar{
+    grid-area: nav;
+    background-image: $colorGradiente;
+    .navImg{
+        width: 70px;
+    }
+    .navbar-brand{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }    
+    .navbar-nav{
+        background-image: $colorGradiente;
+        .nav-item{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}
+
+
+
