@@ -11,6 +11,10 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 10px;
+        @media(max-width:1037px){
+            width: 100%;
+            align-items: center;
+    }    
         .fa-brands{
             font-size: 30px;
             height: 80px;
@@ -39,11 +43,3 @@ footer{
     }
 }
 
-@media(max-width:1037px){
-    footer{
-        .empresa{
-            width: 100%;
-            align-items: center;
-        }
-    } 
-}

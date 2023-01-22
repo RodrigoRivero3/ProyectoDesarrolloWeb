@@ -55,10 +55,15 @@ aside .table {
 
 .header .headerInfo h1 {
   font-size: 70px;
-  font-family: SBold;
+  font-family: superbold;
   padding: 10px;
   color: #A7DD3C;
   text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77, 0, 13, 0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77, 25, 0, 0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77, 66, 0, 0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64, 77, 0, 0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38, 77, 0, 0.5);
+}
+@media (max-width: 651px) {
+  .header .headerInfo h1 {
+    font-size: 50px;
+  }
 }
 
 section .blqNoticia {
@@ -76,6 +81,10 @@ section .blqNoticia {
 @font-face {
   font-family: SBold;
   src: url(../fuentes/Redemtion.ttf);
+}
+@font-face {
+  font-family: superbold;
+  src: url(../../assets/fuentes/SUPER\ BOLD.ttf);
 }
 .bodyIndex {
   display: grid;
@@ -156,23 +165,25 @@ aside .publicidades {
   align-items: center;
   margin: 10px;
 }
-aside .table {
-  background-image: url(../../assets/img/Tabla//sub_zero_and_kratos-600.jpg);
-}
-
 @media (max-width: 998px) {
-  .publicidad {
+  aside .publicidades .publicidad {
     margin-top: 20px;
   }
 }
 @media (max-width: 768px) {
-  .publicidad {
+  aside .publicidades .publicidad {
     width: 100%;
   }
-  .publicidad img {
+}
+@media (max-width: 768px) {
+  aside .publicidades .publicidad img {
     width: 350px;
   }
 }
+aside .table {
+  background-image: url(../../assets/img/Tabla//sub_zero_and_kratos-600.jpg);
+}
+
 footer {
   grid-area: footer;
   background: #040201;
@@ -187,6 +198,12 @@ footer .empresa {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@media (max-width: 1037px) {
+  footer .empresa {
+    width: 100%;
+    align-items: center;
+  }
 }
 footer .empresa .fa-brands {
   font-size: 30px;
@@ -210,12 +227,6 @@ footer .sucursal ul li a .fa-solid {
   padding: 5px;
 }
 
-@media (max-width: 1037px) {
-  footer .empresa {
-    width: 100%;
-    align-items: center;
-  }
-}
 .header {
   grid-area: header;
   background-image: url(../img/Inicio/retrowave_retro_games_purple_dark_video_games-1328387.jpg!d);
@@ -229,11 +240,6 @@ footer .sucursal ul li a .fa-solid {
 .header .headerInfo {
   color: #33FF8D;
   border-radius: 10px;
-}
-@media (max-width: 651px) {
-  .header .headerInfo h1 {
-    font-size: 50px;
-  }
 }
 .bloque {
   border: solid 2px;
@@ -275,6 +281,11 @@ main .textoInicio {
 }
 main .textoInicio h2 {
   font-size: 50px;
+}
+@media (max-width: 632px) {
+  main .textoInicio h2 {
+    font-size: 10px;
+  }
 }
 @-webkit-keyframes colorr {
   0% {
@@ -356,11 +367,6 @@ main .secion form label input {
   text-align: center;
 }
 
-@media (max-width: 632px) {
-  .textoInicio h2 {
-    font-size: 40px;
-  }
-}
 .navbar {
   grid-area: nav;
   background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
@@ -398,6 +404,11 @@ section .blqNoticia .blqNoticia__titulo {
   margin: 10px;
   padding: 5px;
 }
+@media (max-width: 768px) {
+  section .blqNoticia .blqNoticia__titulo {
+    font-size: 30px;
+  }
+}
 section .blqNoticia .blqNoticia__subT {
   text-align: center;
   font-family: cursive;
@@ -406,12 +417,22 @@ section .blqNoticia .blqNoticia__subT {
   margin: 10px;
   padding: 10px;
 }
+@media (max-width: 768px) {
+  section .blqNoticia .blqNoticia__subT {
+    font-size: 10px;
+  }
+}
 section .blqNoticia .blqNoticia__texto {
   color: white;
   font-size: 20px;
   font-family: cursive;
   margin: 10px;
   padding: 10px;
+}
+@media (max-width: 768px) {
+  section .blqNoticia .blqNoticia__texto {
+    font-size: 5px;
+  }
 }
 section .blqNoticia .comentarios {
   display: flex;
@@ -451,17 +472,6 @@ section .blqNoticia .comentarios .comentario .comentar {
   color: black;
 }
 
-@media (max-width: 768px) {
-  .blqNoticia__titulo {
-    font-size: 40px;
-  }
-  .blqNoticia__subT {
-    font-size: 25px;
-  }
-  .blqNoticia__texto {
-    font-size: 15px;
-  }
-}
 .formulario {
   display: flex;
   justify-content: center;

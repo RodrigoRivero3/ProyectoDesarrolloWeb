@@ -16,6 +16,9 @@ main{
         animation-delay: 2s;
         h2{
             font-size: 50px;
+            @media(max-width:632px){
+                font-size: 10px;
+            }
         }
         @keyframes colorr{
             0%{
@@ -91,11 +94,4 @@ main{
             }
         }
     } 
-}
-
-
-@media(max-width:632px){
-    .textoInicio h2{
-        font-size: 40px;
-    }
 }

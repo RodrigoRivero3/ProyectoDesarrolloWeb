@@ -15,7 +15,10 @@ section{
             color: white;
             font-size: 60px;
             margin: 10px;
-            padding: 5px; 
+            padding: 5px;
+            @media(max-width:768px){
+                font-size: 30px;
+            } 
         }
         .blqNoticia__subT{
             text-align: center;
@@ -23,7 +26,10 @@ section{
             color: white;
             font-size: 40px;
             margin: 10px;
-            padding: 10px; 
+            padding: 10px;
+            @media(max-width:768px){
+                font-size: 10px;
+            }
         }
         .blqNoticia__texto{
             color: white;
@@ -31,6 +37,9 @@ section{
             font-family: cursive;
             margin: 10px;
             padding: 10px;
+            @media(max-width:768px){
+                font-size: 5px;
+            }
         }
         .comentarios{
             display: flex;
@@ -72,17 +81,4 @@ section{
             }
         }
     }   
-}
-
-
-@media(max-width:768px){
-    .blqNoticia__titulo{
-        font-size: 40px;
-    }
-    .blqNoticia__subT{
-        font-size: 25px;
-    }
-    .blqNoticia__texto{
-        font-size: 15px;
-    }
 }

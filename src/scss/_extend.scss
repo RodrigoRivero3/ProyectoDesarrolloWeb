@@ -41,7 +41,7 @@
 
 %titulo{
     font-size: 70px;
-    font-family: SBold;
+    font-family: superbold;
     padding: 10px;
     color: #A7DD3C;
     text-shadow: 2px 0 0px #800040,
@@ -60,8 +60,10 @@
                  15px 0 45px #80FF00,
                  17px 0 45px #408000,
                  17px 2px 45px rgba(38,77,0,0.5);
+                 @media(max-width:651px){
+                    font-size: 50px;
+                }
 }
-
 
 %noticias{
         background-color: map-get($noticias, background-color );
