@@ -14,17 +14,36 @@ footer{
         @media(max-width:1037px){
             width: 100%;
             align-items: center;
-    }    
+        }
+        h2{
+            font-family: Titania;
+            @media(max-width:371px){
+                font-size: 20px;
+            }
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            @media(max-width:371px){
+                font-size: 15px;
+            }
+        }    
         .fa-brands{
-            font-size: 30px;
+            font-size: 40px;
             height: 80px;
             width: 80px;
+            @media(max-width:371px){
+                font-size: 30px;
+                height: 60px;
+                width: 60px;
+            }
         }  
     }
     .sucursal{
         margin: 10px;
-        text-align: center;
+        text-align: left;
         h3{
+            text-align: center;
+            font-family: Titania;
             margin: 10px 0px;
         }
         ul{
@@ -33,6 +52,7 @@ footer{
             gap: 10px;
             li{
                 a{
+                    font-family: 'Courier New', Courier, monospace;
                     .fa-solid{
                         font-size: 20px;
                         padding: 5px;

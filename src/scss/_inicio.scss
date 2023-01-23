@@ -3,12 +3,7 @@
     border-radius: 10px;
     .bloque__titulo{
         font-family: Titania;
-        color: #33FF8D;
-        text-shadow: -1px -1px 1px #000,
-                      1px 1px 1px #000,
-                     -1px 1px 1px #000,
-                      1px -1px 1px #000;
-        font-size: 35px;
+        @extend %colorTitulo;
         margin: 10px;
     }
     p{

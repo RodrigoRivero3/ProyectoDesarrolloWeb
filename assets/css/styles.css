@@ -74,6 +74,12 @@ section .blqNoticia {
   margin: 10px;
 }
 
+section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
+  color: #33FF8D;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  font-size: 35px;
+}
+
 @font-face {
   font-family: Titania;
   src: url(../fuentes/Titania-Regular.ttf);
@@ -86,13 +92,16 @@ section .blqNoticia {
   font-family: superbold;
   src: url(../../assets/fuentes/SUPER\ BOLD.ttf);
 }
+@font-face {
+  font-family: Indonesia;
+  src: url(../../assets/fuentes/I\ LOVE\ INDONESIA.ttf);
+}
 .bodyIndex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 80px 350px auto auto;
   grid-template-areas: "nav nav nav nav" "header header header header" "main main main aside" "footer footer footer footer";
 }
-
 @media (max-width: 998px) {
   .bodyIndex {
     display: grid;
@@ -101,6 +110,7 @@ section .blqNoticia {
     grid-template-areas: "nav nav nav nav" "header header header header" "main main main main" "aside aside aside aside" "footer footer footer footer";
   }
 }
+
 .btn__aside {
   width: 150px;
   padding: 10px;
@@ -205,22 +215,50 @@ footer .empresa {
     align-items: center;
   }
 }
+footer .empresa h2 {
+  font-family: Titania;
+}
+@media (max-width: 371px) {
+  footer .empresa h2 {
+    font-size: 20px;
+  }
+}
+footer .empresa p {
+  font-family: "Courier New", Courier, monospace;
+}
+@media (max-width: 371px) {
+  footer .empresa p {
+    font-size: 15px;
+  }
+}
 footer .empresa .fa-brands {
-  font-size: 30px;
+  font-size: 40px;
   height: 80px;
   width: 80px;
 }
+@media (max-width: 371px) {
+  footer .empresa .fa-brands {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+  }
+}
 footer .sucursal {
   margin: 10px;
-  text-align: center;
+  text-align: left;
 }
 footer .sucursal h3 {
+  text-align: center;
+  font-family: Titania;
   margin: 10px 0px;
 }
 footer .sucursal ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+footer .sucursal ul li a {
+  font-family: "Courier New", Courier, monospace;
 }
 footer .sucursal ul li a .fa-solid {
   font-size: 20px;
@@ -247,9 +285,6 @@ footer .sucursal ul li a .fa-solid {
 }
 .bloque .bloque__titulo {
   font-family: Titania;
-  color: #33FF8D;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-  font-size: 35px;
   margin: 10px;
 }
 .bloque p {
@@ -399,7 +434,6 @@ section .blqNoticia .blqNoticia__img {
 section .blqNoticia .blqNoticia__titulo {
   text-align: center;
   font-family: Titania;
-  color: white;
   font-size: 60px;
   margin: 10px;
   padding: 5px;
@@ -411,7 +445,7 @@ section .blqNoticia .blqNoticia__titulo {
 }
 section .blqNoticia .blqNoticia__subT {
   text-align: center;
-  font-family: cursive;
+  font-family: Titania;
   color: white;
   font-size: 40px;
   margin: 10px;
@@ -425,7 +459,7 @@ section .blqNoticia .blqNoticia__subT {
 section .blqNoticia .blqNoticia__texto {
   color: white;
   font-size: 20px;
-  font-family: cursive;
+  font-family: "Courier New", Courier, monospace;
   margin: 10px;
   padding: 10px;
 }

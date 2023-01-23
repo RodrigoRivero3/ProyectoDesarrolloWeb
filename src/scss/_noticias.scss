@@ -12,7 +12,7 @@ section{
         .blqNoticia__titulo{
             text-align: center;
             font-family: Titania;
-            color: white;
+            @extend %colorTitulo;
             font-size: 60px;
             margin: 10px;
             padding: 5px;
@@ -22,7 +22,7 @@ section{
         }
         .blqNoticia__subT{
             text-align: center;
-            font-family: cursive;
+            font-family: Titania;
             color: white;
             font-size: 40px;
             margin: 10px;
@@ -34,7 +34,7 @@ section{
         .blqNoticia__texto{
             color: white;
             font-size: 20px;
-            font-family: cursive;
+            font-family: 'Courier New', Courier, monospace;
             margin: 10px;
             padding: 10px;
             @media(max-width:768px){

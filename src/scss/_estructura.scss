@@ -6,17 +6,15 @@
                         "header header header header"
                         "main main main aside"
                         "footer footer footer footer";
+                        @media(max-width:998px){
+                                display: grid;
+                                grid-template-columns: repeat(4,1fr);
+                                grid-template-rows: 80px 300px auto auto;
+                                grid-template-areas: "nav nav nav nav"
+                                                     "header header header header"
+                                                    "main main main main"
+                                                    "aside aside aside aside"
+                                                    "footer footer footer footer";
+                        }
 }
 
-@media(max-width:998px){
-    .bodyIndex{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 80px 300px auto auto;
-        grid-template-areas: "nav nav nav nav"
-                             "header header header header"
-                            "main main main main"
-                            "aside aside aside aside"
-                            "footer footer footer footer";
-    }
-}
