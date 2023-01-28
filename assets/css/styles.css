@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-aside .tarjetas .tarjeta, aside .publicidades .publicidad {
+aside .publicidades .publicidad {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,24 +25,24 @@ aside .tarjetas .tarjeta, aside .publicidades .publicidad {
   margin: 30px;
   margin-top: 100px;
 }
-aside .tarjetas .tarjeta h3, aside .publicidades .publicidad h3 {
+aside .publicidades .publicidad h3 {
   text-align: center;
   font-size: 40px;
   font-family: Sbold;
 }
-aside .tarjetas .tarjeta img, aside .publicidades .publicidad img {
+aside .publicidades .publicidad img {
   width: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-aside .tarjetas .tarjeta p, aside .publicidades .publicidad p {
+aside .publicidades .publicidad p {
   font-size: 20px;
   font-family: cursive;
 }
 
 aside .table {
   margin-top: 30px;
-  margin-right: 10px;
+  margin: 10px;
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
@@ -51,6 +51,11 @@ aside .table {
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
   font-family: Titania;
   font-size: 20px;
+}
+@media (max-width: 400px) {
+  aside .table {
+    font-size: 15px;
+  }
 }
 
 .header .headerInfo h1 {
@@ -65,19 +70,50 @@ aside .table {
     font-size: 50px;
   }
 }
+@media (max-width: 472px) {
+  .header .headerInfo h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .header .headerInfo h1 {
+    font-size: 30px;
+  }
+}
 
 section .blqNoticia {
-  background-color: black;
-  border: solid 6px rgb(69, 69, 70);
+  background-color: rgb(38, 0, 255);
+  border: solid 6px black;
   border-radius: 6px;
   padding: 10px;
   margin: 10px;
 }
 
-section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
+section .blqNoticia .flecha h4, section .blqNoticia .blqNoticia__titulo, main .secion h4, .bloque .bloque__titulo, aside .publicidades article .textoArticulo h2 {
   color: #33FF8D;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
   font-size: 35px;
+}
+
+section .bloqueVideo .reproductor h3, aside .accordion h3, main .parrafoTitulo {
+  color: rgb(38, 0, 255);
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  top: 10px;
+}
+
+section .bloqueVideo .reproductor div button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+section .bloqueVideo .reproductor div button:hover {
+  color: blue;
 }
 
 @font-face {
@@ -111,6 +147,10 @@ section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
   }
 }
 
+body {
+  background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
+}
+
 .btn__aside {
   width: 150px;
   padding: 10px;
@@ -121,6 +161,7 @@ section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
   color: white;
   text-decoration: none;
   margin: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
 .btn__aside:hover {
   color: blue;
@@ -130,6 +171,7 @@ section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
   width: 100%;
   background-color: black;
   color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 .btn:hover {
   background-color: cornflowerblue;
@@ -137,23 +179,36 @@ section .blqNoticia .blqNoticia__titulo, .bloque .bloque__titulo {
 
 main .parrafoTexto {
   width: 100%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+@media (max-width: 400px) {
+  main .parrafoTexto {
+    font-size: 16px;
+  }
 }
 main .parrafoTexto span {
-  font-family: cursive;
+  font-family: Titania;
   font-size: 30px;
-  color: #33FF8D;
+  color: rgb(38, 0, 255);
+}
+@media (max-width: 400px) {
+  main .parrafoTexto span {
+    font-size: 20px;
+  }
 }
 main .parrafoTitulo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Titania;
   font-size: 50px;
-  color: red;
-  top: 10px;
 }
 main .aboutImg {
   width: 250px;
   transition: 2s;
+}
+@media (max-width: 400px) {
+  main .aboutImg {
+    width: 150px;
+  }
 }
 main .aboutImg:hover {
   transform: scale(1.2);
@@ -161,37 +216,104 @@ main .aboutImg:hover {
 main .aboutImg2 {
   transition: 2s;
 }
+@media (max-width: 400px) {
+  main .aboutImg2 {
+    width: 250px;
+  }
+}
 main .aboutImg2:hover {
   transform: scale(1.2);
 }
 
 aside {
   grid-area: aside;
+  display: flex;
+  align-items: stretch;
 }
 aside .publicidades {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 10px;
 }
 @media (max-width: 998px) {
   aside .publicidades .publicidad {
     margin-top: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 863px) {
   aside .publicidades .publicidad {
-    width: 100%;
+    width: 90%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 863px) {
   aside .publicidades .publicidad img {
-    width: 350px;
+    width: 90%;
+  }
+}
+aside .publicidades article {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 10px;
+}
+aside .publicidades article .imgArticulo {
+  display: flex;
+  margin-top: 50px;
+}
+@media (max-width: 863px) {
+  aside .publicidades article .imgArticulo {
+    margin-top: 0px;
+  }
+}
+aside .publicidades article .imgArticulo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+aside .publicidades article .textoArticulo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 5px;
+}
+aside .publicidades article .textoArticulo h2 {
+  font-family: Titania;
+  margin: 5px;
+  font-size: 20px;
+}
+@media (max-width: 998px) {
+  aside .publicidades article .textoArticulo h2 {
+    font-size: 15px;
   }
 }
 aside .table {
   background-image: url(../../assets/img/Tabla//sub_zero_and_kratos-600.jpg);
+}
+aside .accordion {
+  margin: 10px;
+}
+aside .accordion h3 {
+  text-align: center;
+  font-family: Titania;
+  font-size: 45px;
+}
+aside .accordion .accordion-item {
+  background-color: rgb(38, 0, 255);
+  color: #33FF8D;
+}
+aside .accordion .accordion-item h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+aside .accordion .accordion-item h2 .accordion-button {
+  background-color: rgb(38, 0, 255);
+  color: #33FF8D;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+aside .accordion .accordion-item .accordion-collapse {
+  font-family: "Courier New", Courier, monospace;
 }
 
 footer {
@@ -202,10 +324,12 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  border-style: double;
 }
 footer .empresa {
   margin: 20px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -282,15 +406,25 @@ footer .sucursal ul li a .fa-solid {
 .bloque {
   border: solid 2px;
   border-radius: 10px;
+  background-color: rgb(38, 0, 255);
 }
 .bloque .bloque__titulo {
   font-family: Titania;
   margin: 10px;
 }
+.bloque h3 {
+  color: white;
+  font-family: Titania;
+}
 .bloque p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
   margin: 10px;
   padding: 10px;
   font-size: 20px;
+}
+.bloque .imgIndex {
+  width: 100%;
 }
 
 main {
@@ -354,6 +488,12 @@ main .headerImg {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
+@media (max-width: 526px) {
+  main .headerImg {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+}
 @-webkit-keyframes mover {
   0% {
     transform: translate(800px, 0px);
@@ -370,19 +510,41 @@ main .headerImg {
     transform: translate(0, 0);
   }
 }
+main .textoLinks .textoLink {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+main .textoLinks .textoLink li {
+  text-decoration: underline;
+  padding: 15px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+@media (max-width: 526px) {
+  main .textoLinks .textoLink li {
+    font-size: 15px;
+  }
+}
 main .secion {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
+  background-color: rgb(38, 0, 255);
   width: 100%;
-  height: 350px;
+  height: 400px;
   margin-top: 10px;
-  margin-left: 10PX;
+  margin-left: 15px;
   border-radius: 5px;
 }
+@media (max-width: 400px) {
+  main .secion {
+    width: 90%;
+  }
+}
 main .secion h4 {
-  padding: 5px;
+  font-family: Titania;
+  padding: 10px;
 }
 main .secion form {
   display: flex;
@@ -393,6 +555,8 @@ main .secion form label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
   padding: 10px;
   font-size: 20px;
 }
@@ -410,15 +574,16 @@ main .secion form label input {
   width: 70px;
 }
 .navbar .navbar-brand {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Sbold;
   font-size: 30px;
 }
 .navbar .navbar-nav {
   background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
 }
 .navbar .navbar-nav .nav-item {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  text-decoration: underline;
   padding: 5px;
 }
 
@@ -426,10 +591,12 @@ section .blqNoticia {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: black;
 }
 section .blqNoticia .blqNoticia__img {
   width: 100%;
+}
+section .blqNoticia:hover div .blqNoticia__texto {
+  display: block;
 }
 section .blqNoticia .blqNoticia__titulo {
   text-align: center;
@@ -442,6 +609,13 @@ section .blqNoticia .blqNoticia__titulo {
   section .blqNoticia .blqNoticia__titulo {
     font-size: 30px;
   }
+}
+section .blqNoticia .flecha {
+  text-align: center;
+  margin: 15px;
+}
+section .blqNoticia .flecha h4 {
+  font-size: 30px;
 }
 section .blqNoticia .blqNoticia__subT {
   text-align: center;
@@ -457,11 +631,13 @@ section .blqNoticia .blqNoticia__subT {
   }
 }
 section .blqNoticia .blqNoticia__texto {
+  text-align: center;
   color: white;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   margin: 10px;
   padding: 10px;
+  display: none;
 }
 @media (max-width: 768px) {
   section .blqNoticia .blqNoticia__texto {
@@ -472,16 +648,23 @@ section .blqNoticia .comentarios {
   display: flex;
   flex-direction: column;
 }
+section .blqNoticia .comentarios:hover .respuesta {
+  display: block;
+}
 section .blqNoticia .comentarios h3 {
+  font-family: Titania;
   color: white;
 }
 section .blqNoticia .comentarios .respuesta {
   padding: 10px;
+  display: none;
 }
 section .blqNoticia .comentarios .respuesta h4 {
+  font-family: Titania;
   color: white;
 }
 section .blqNoticia .comentarios .respuesta p {
+  font-family: "Courier New", Courier, monospace;
   color: white;
 }
 section .blqNoticia .comentarios .comentario {
@@ -491,19 +674,22 @@ section .blqNoticia .comentarios .comentario:hover label {
   display: block;
 }
 section .blqNoticia .comentarios .comentario label {
-  background-color: aqua;
+  background-color: #33FF8D;
+  border-radius: 2px;
   font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
   padding: 10px;
   display: none;
 }
 section .blqNoticia .comentarios .comentario .comentar {
-  background-color: aqua;
+  background-color: black;
   width: 200px;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  color: black;
+  color: white;
 }
 
 .formulario {
@@ -520,25 +706,29 @@ section .blqNoticia .comentarios .comentario .comentar {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  width: 50%;
   background-image: url(../img/registro/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
   padding: 30px;
   margin: 30px;
   border-radius: 4px;
-  font-family: cursive;
+  font-family: "Courier New", Courier, monospace;
   color: white;
 }
 .formulario .form label .form__input {
-  display: block;
+  margin: 5px;
+  align-self: center;
   width: 100%;
   background-color: transparent;
   padding: 20px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid white;
-  font-family: cursive;
   font-size: 18px;
   text-align: center;
+}
+@media (max-width: 536px) {
+  .formulario .form label .form__input {
+    font-size: 10px;
+  }
 }
 .formulario .form .form__btn {
   margin-top: 20px;
@@ -551,25 +741,52 @@ section .blqNoticia .comentarios .comentario .comentar {
 }
 
 section .bloqueVideo {
-  width: 100%;
-  background-color: black;
-  border: solid 6px blue;
-  border-radius: 6px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .bloqueVideo .reproductor {
+  display: flex;
+  margin: 20px 0px 5px 10px;
+}
+@media (max-width: 730px) {
+  section .bloqueVideo .reproductor {
+    flex-direction: column;
+  }
+}
+section .bloqueVideo .reproductor h3 {
+  font-family: Titania;
+  text-align: center;
+}
+section .bloqueVideo .reproductor p {
+  margin: 10px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+section .bloqueVideo .reproductor iframe {
+  align-self: center;
+  width: 480px;
+  height: 288px;
   margin: 10px;
 }
-section .bloqueVideo .bloqueVideo__video {
-  width: 100%;
+section .bloqueVideo .reproductor div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-section .bloqueVideo .bloqueVideo__titulo {
-  text-align: center;
-  font-family: Titania;
-  color: white;
-  font-size: 30px;
-  padding: 5px;
+section .bloqueVideo .reproductor div img {
+  margin: 10px;
+  width: 480px;
+  height: 288px;
+  position: relative;
 }
-section .bloqueVideo .bloqueVideo__texto {
-  color: white;
-  font-size: 20px;
-  font-family: cursive;
+@media (max-width: 730px) {
+  section .bloqueVideo .reproductor div img {
+    width: 80%;
+  }
+}
+section .bloqueVideo .reproductor div button {
+  position: absolute;
 }/*# sourceMappingURL=styles.css.map */

@@ -26,7 +26,7 @@
 
 %tabla{
     margin-top: 30px;
-    margin-right: 10px;
+    margin: 10px;
     background-size: cover;
     object-fit: cover;
     border-radius: 5px;
@@ -37,6 +37,9 @@
                   1px -1px 1px #000;
     font-family: Titania;
     font-size: 20px;
+    @media(max-width:400px){
+        font-size: 15px;
+    }
 }
 
 %titulo{
@@ -60,8 +63,14 @@
                  15px 0 45px #80FF00,
                  17px 0 45px #408000,
                  17px 2px 45px rgba(38,77,0,0.5);
-                 @media(max-width:651px){
+                @media(max-width:651px){
                     font-size: 50px;
+                }
+                @media(max-width:472px){
+                    font-size: 40px;
+                }
+                @media(max-width:360px){
+                    font-size: 30px;
                 }
 }
 
@@ -81,4 +90,28 @@
                  -1px 1px 1px #000,
                   1px -1px 1px #000;
     font-size: 35px;
+}
+
+%colorTituloDos{
+    color: rgb(38, 0, 255);
+    text-shadow: -1px -1px 1px #000,
+    1px 1px 1px #000,
+   -1px 1px 1px #000,
+    1px -1px 1px #000;
+    top: 10px;
+}
+
+%boton{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    &:hover{
+        color: blue;
+    }
 }

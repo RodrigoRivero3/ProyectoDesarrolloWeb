@@ -1,26 +1,52 @@
 section{
     .bloqueVideo{
-        width: 100%;
-        background-color: black;
-        border: solid 6px blue;
-        border-radius: 6px;
-        padding: 10px;
-        margin: 10px;
-        .bloqueVideo__video{
-            width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .reproductor{
+            display: flex;
+          
+            margin: 20px 0px 5px 10px;
+            @media(max-width:730px){
+                flex-direction: column;
+            }
+            h3{
+                font-family: Titania;
+                text-align: center;
+                @extend %colorTituloDos;
+            }
+            p{
+                margin: 10px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                color: black;
+            }
+            iframe{
+                align-self: center;
+                width: 480px;
+                height: 288px;
+                margin: 10px;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin: 10px;
+                    width: 480px;
+                    height: 288px;
+                    position: relative;
+                    @media(max-width:730px){
+                        width: 80%;
+                    }
+                }
+                button{
+                    @extend %boton;
+                    position: absolute;
+                }
+            }
         }
-        .bloqueVideo__titulo{
-            text-align: center;
-            font-family: Titania;
-            color: white;
-            font-size: 30px;
-            padding: 5px; 
-        }
-        .bloqueVideo__texto{
-            color: white;
-            font-size: 20px;
-            font-family: cursive;
-        }        
     }
 }
 

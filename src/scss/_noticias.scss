@@ -4,11 +4,17 @@ section{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: black;
         @extend %noticias;
         .blqNoticia__img{
             width: 100%;
         }
+        &:hover{
+            div{
+                .blqNoticia__texto{
+                    display: block;
+                }
+            }
+    }
         .blqNoticia__titulo{
             text-align: center;
             font-family: Titania;
@@ -18,8 +24,17 @@ section{
             padding: 5px;
             @media(max-width:768px){
                 font-size: 30px;
-            } 
+            }
         }
+        .flecha{
+            text-align: center;
+            margin: 15px;
+
+            h4{
+                @extend %colorTitulo;
+                font-size: 30px;
+            }
+        } 
         .blqNoticia__subT{
             text-align: center;
             font-family: Titania;
@@ -32,11 +47,13 @@ section{
             }
         }
         .blqNoticia__texto{
+            text-align: center;
             color: white;
             font-size: 20px;
             font-family: 'Courier New', Courier, monospace;
             margin: 10px;
             padding: 10px;
+            display: none;
             @media(max-width:768px){
                 font-size: 15px;
             }
@@ -44,15 +61,24 @@ section{
         .comentarios{
             display: flex;
             flex-direction: column;
+            &:hover{
+                .respuesta{
+                    display: block;
+                }
+            }
             h3{
+                font-family: Titania;
                 color: white;
             }
             .respuesta{
                 padding: 10px;
+                display: none;
                 h4{
+                    font-family: Titania;
                     color: white;
                 }
                 p{
+                    font-family: 'Courier New', Courier, monospace;
                     color: white;
                 }
             }
@@ -64,19 +90,22 @@ section{
                     }
                 } 
                 label{
-                    background-color: aqua;
+                    background-color: #33FF8D;
+                    border-radius: 2px ;
                     font-size: 15px;
+                    font-family: 'Courier New', Courier, monospace;
                     padding: 10px;
                     display: none;
                 }
                 .comentar{
-                    background-color: aqua;
+                    background-color: black;
                     width: 200px;
+                    font-family: 'Courier New', Courier, monospace;
                     font-size: 20px;
                     margin: 10px;
                     padding: 10px;
                     border-radius: 10px;
-                    color: black;
+                    color: white;
                 }
             }
         }

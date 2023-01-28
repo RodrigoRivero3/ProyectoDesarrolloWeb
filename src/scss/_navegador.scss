@@ -5,14 +5,15 @@
         width: 70px;
     }
     .navbar-brand{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Sbold;
         font-size: 30px;
     }    
     .navbar-nav{
         background-image: $colorGradiente;
         .nav-item{
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Courier New', Courier, monospace;
             font-size: 20px;
+            text-decoration: underline;
             padding: 5px;
         }
     }

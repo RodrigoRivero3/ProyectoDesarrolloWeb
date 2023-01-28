@@ -1,15 +1,25 @@
 .bloque{
     border: solid 2px;
     border-radius: 10px;
+    background-color: rgb(38, 0, 255);
     .bloque__titulo{
         font-family: Titania;
         @extend %colorTitulo;
         margin: 10px;
     }
+    h3{
+        color: white;
+        font-family: Titania;
+    }
     p{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
         margin: 10px;
         padding: 10px;
         font-size: 20px;
+    }
+    .imgIndex{
+        width: 100%;
     }
 }
 

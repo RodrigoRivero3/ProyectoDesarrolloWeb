@@ -1,9 +1,11 @@
 .btn__aside{
-    @include btnAside(black,white)
+    @include btnAside(black,white);
+    font-family: 'Courier New', Courier, monospace
 }
 
 .btn{
     @include btnInicio(black,white);
+    font-family: 'Courier New', Courier, monospace;
     &:hover{
         background-color: cornflowerblue;
     }

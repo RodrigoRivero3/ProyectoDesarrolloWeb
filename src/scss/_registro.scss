@@ -10,25 +10,27 @@
         flex-wrap: wrap;
         flex-direction: column;
         position: relative;
-        width: 50%;
         background-image: url(../img/registro/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
         padding: 30px;
         margin: 30px;
         border-radius: 4px;
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         color: white;
         label{
             .form__input{
-                display: block;
+                margin: 5px;
+                align-self: center;
                 width: 100%;
                 background-color: transparent;
                 padding: 20px;
                 border-radius: 4px;
                 margin-bottom: 16px;
                 border: 1px solid white;
-                font-family: cursive;
                 font-size: 18px;
                 text-align: center;
+                @media(max-width:536px){
+                    font-size: 10px;
+                }
             }
             
         }

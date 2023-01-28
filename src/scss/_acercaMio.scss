@@ -2,31 +2,42 @@
 main{
     .parrafoTexto{
         width: 100%;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        @media(max-width:400px){
+            font-size: 16px;
+        }
         span{
-            font-family: cursive;
+            font-family: Titania;
             font-size: 30px;
-            color: #33FF8D;
+            color: rgb(38, 0, 255);
+            @media(max-width:400px){
+                font-size: 20px;
+            }
         }
     }
     
     .parrafoTitulo{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Titania;
         font-size: 50px;
-        color: red;
-        top: 10px;
+        @extend %colorTituloDos;
     }
     
     .aboutImg{
         width: 250px;
         transition: 2s;
+        @media(max-width:400px){
+            width: 150px;
+        }
         &:hover{
             transform: scale(1.2);
         }
     }
     .aboutImg2{
         transition: 2s;
+        @media(max-width:400px){
+            width: 250px;   
+        }
         &:hover{
             transform: scale(1.2);
         }  
