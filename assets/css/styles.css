@@ -529,6 +529,7 @@ main .textoLinks .textoLink li {
 main .secion {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: rgb(38, 0, 255);
   width: 100%;
@@ -539,7 +540,8 @@ main .secion {
 }
 @media (max-width: 500px) {
   main .secion {
-    width: 80%;
+    margin: 15px;
+    width: 90%;
   }
 }
 main .secion h4 {
