@@ -539,7 +539,7 @@ main .secion {
 }
 @media (max-width: 400px) {
   main .secion {
-    width: 90%;
+    width: 80%;
   }
 }
 main .secion h4 {
