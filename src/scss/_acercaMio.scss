@@ -27,7 +27,7 @@ main{
         width: 250px;
         transition: 2s;
         @media(max-width:400px){
-            width: 150px;
+            width: 130px;
         }
         &:hover{
             transform: scale(1.2);
@@ -36,7 +36,7 @@ main{
     .aboutImg2{
         transition: 2s;
         @media(max-width:400px){
-            width: 250px;   
+            width: 200px;   
         }
         &:hover{
             transform: scale(1.2);
