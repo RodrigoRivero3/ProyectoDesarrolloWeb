@@ -205,7 +205,7 @@ main .aboutImg {
   width: 250px;
   transition: 2s;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   main .aboutImg {
     width: 130px;
   }
@@ -216,7 +216,7 @@ main .aboutImg:hover {
 main .aboutImg2 {
   transition: 2s;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   main .aboutImg2 {
     width: 200px;
   }
@@ -322,6 +322,7 @@ footer {
   background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   border-style: double;
@@ -391,6 +392,7 @@ footer .sucursal ul li a .fa-solid {
 
 .header {
   grid-area: header;
+  width: 100%;
   background-image: url(../img/Inicio/retrowave_retro_games_purple_dark_video_games-1328387.jpg!d);
   background-size: cover;
   -o-object-fit: cover;
@@ -529,17 +531,20 @@ main .textoLinks .textoLink li {
 main .secion {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: rgb(38, 0, 255);
   width: 100%;
   height: 400px;
-  margin: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
   border-radius: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 998px) {
   main .secion {
-    width: 80%;
+    margin: 0px;
   }
 }
 main .secion h4 {
@@ -571,7 +576,7 @@ main .secion form label input {
   background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
 }
 .navbar .navImg {
-  width: 70px;
+  width: 100%;
 }
 .navbar .navbar-brand {
   font-family: Sbold;
