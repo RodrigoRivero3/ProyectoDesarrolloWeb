@@ -2,7 +2,10 @@
     grid-area: nav;
     background-image: $colorGradiente;
     .navImg{
-        width: 100%;
+        width: 75px;
+        @media(max-width: 990px){
+            width: 50px;
+        }
     }
     .navbar-brand{
         font-family: Sbold;

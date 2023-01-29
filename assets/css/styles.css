@@ -576,7 +576,12 @@ main .secion form label input {
   background-image: linear-gradient(20deg, rgb(50, 228, 15), #33FF8D, rgb(50, 228, 15));
 }
 .navbar .navImg {
-  width: 100%;
+  width: 75px;
+}
+@media (max-width: 990px) {
+  .navbar .navImg {
+    width: 50px;
+  }
 }
 .navbar .navbar-brand {
   font-family: Sbold;
